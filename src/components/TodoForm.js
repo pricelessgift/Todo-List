@@ -15,9 +15,9 @@ const handleSubmit = e => {
         <input type="text" className='todo-input' value={value}
         placeholder='What is the task today?' onChange=
         {(e) => setValue(e.target.value)}/>
-        <buttom type="submit" className='todo-btn'>
+        <button type="submit" className='todo-btn'>
             Add Task
-        </buttom>
+        </button>
     </form>
     
   )
